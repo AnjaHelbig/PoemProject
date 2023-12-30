@@ -7,29 +7,33 @@
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
-    <h1>AI Poem Generator</h1>
+    <div class="container">
+      <h1>AI Poem Generator</h1>
 
-    <form>
-      <input
-        type="text"
-        placeholder="Enter the topic!"
-        autofocus
-        autocomplete="off"
-      />
-      <input type="submit" value="Submit" />
-    </form>
-    <div>The poem will be entered here ...</div>
+      <form>
+        <input
+          type="text"
+          placeholder="Enter the topic!"
+          autofocus
+          autocomplete="off"
+          class="textInput"
+        />
+        <input type="submit" value="Submit" class="inputButton" />
+      </form>
+      <div class="poemText">The poem will be entered here ...</div>
+    </div>
 
     <footer>
       Coded by Anja Helbig ❤
-      <br />
-      Check on
-      <a href="https://github.com/AnjaHelbig/PoemProject.git"
-        ><img
-          src="src/img/GitHubIcon_transparent.png"
-          alt="GitHubIcon"
-          width="30"
-      /></a>
+      <div class="gitHubText">
+        <div>Check on</div>
+        <a href="https://github.com/AnjaHelbig/PoemProject.git"
+          ><img
+            src="src/img/GitHubIcon_transparent.png"
+            alt="GitHubIcon"
+            width="20"
+        /></a>
+      </div>
     </footer>
 
     <script src="src/script.js"></script>

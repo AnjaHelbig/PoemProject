@@ -1,0 +1,63 @@
+body {
+  background-color: #9ec8b9;
+}
+
+h1 {
+  text-align: center;
+  color: #1b4242;
+}
+
+.container {
+  margin: 100px auto 50px auto;
+  max-width: 600px;
+}
+
+form {
+  text-align: center;
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+  opacity: 0.75;
+}
+
+.textInput {
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid #1b4242;
+  width: 85%;
+}
+
+.inputButton {
+  padding: 10px;
+  margin-left: 5px;
+  background: #5c8374;
+  color: white;
+  border-radius: 10px;
+  border: 2px solid #1b4242;
+}
+
+.inputButton:hover {
+  cursor: pointer;
+}
+
+.poemText {
+  background-color: white;
+  padding: 20px;
+  border-left: 3px solid #5c8374;
+  margin-top: 15px;
+  opacity: 0.75;
+}
+
+footer {
+  text-align: center;
+  font-weight: bold;
+  color: #1b4242;
+}
+
+.gitHubText {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+}
