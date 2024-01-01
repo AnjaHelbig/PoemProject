@@ -49,6 +49,10 @@ form {
   opacity: 0.75;
 }
 
+.hidden {
+  display: none;
+}
+
 footer {
   text-align: center;
   font-weight: bold;
@@ -60,4 +64,23 @@ footer {
   gap: 5px;
   align-items: center;
   justify-content: center;
+}
+
+.loading {
+  animation: blink-animation 1s steps(5, start) infinite;
+  -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+
+.AIMarker {
+  color: #1b4242;
 }
