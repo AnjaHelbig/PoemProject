@@ -1,10 +1,16 @@
 body {
-  background-color: #9ec8b9;
+  background-color: #5c8374;
 }
 
 h1 {
   text-align: center;
-  color: #1b4242;
+  color: white;
+  background: #1b4242;
+  color: white;
+  border-radius: 10px;
+  border: 2px solid #092635;
+  padding: 10px;
+  margin: 30px 130px;
 }
 
 .container {
@@ -24,17 +30,17 @@ form {
 .textInput {
   padding: 10px;
   border-radius: 20px;
-  border: 1px solid #1b4242;
+  border: 1px solid #092635;
   width: 85%;
 }
 
 .inputButton {
   padding: 10px;
   margin-left: 5px;
-  background: #5c8374;
+  background: #1b4242;
   color: white;
   border-radius: 10px;
-  border: 2px solid #1b4242;
+  border: 2px solid #092635;
 }
 
 .inputButton:hover {
@@ -44,7 +50,7 @@ form {
 .poemText {
   background-color: white;
   padding: 20px;
-  border-left: 3px solid #5c8374;
+  border-left: 3px solid #1b4242;
   margin-top: 15px;
   opacity: 0.75;
 }
